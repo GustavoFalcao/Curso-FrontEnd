@@ -1,0 +1,61 @@
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    background-image: url(../imagens/bg-2.jpg);
+    background-color: #ccc;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero {
+    padding: 1px;
+}
+
+.hero-content {
+    margin: 100px auto 0;
+    width: 80%;
+    color: white;
+    text-align: center;
+}
+
+.main-title {
+    font-size: 60px;
+    text-shadow: 0 5px 12px black;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.subtitulo {
+    display:inline-block;
+    background-color: rgba(0, 0, 0, 0.657);
+    font-size: 19px;
+    padding: 16px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.758);
+}
+
+.content-principal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    background-color: white;
+    padding: 12px;
+    margin: 10px 0 0;
+}
+
+.imagem {
+    display: block;
+}
+
+.frase__conteudo {
+    background-color: rgba(0, 0, 0, 0.657);
+    margin: 0;
+    padding: 10px;
+    color: white;
+}
