@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color:#162028;
+    color: white;
+    font-family:"Roboto";
+}
+
+.logo {
+    font-family: "Italiana";
+    font-size: 50px;
+    margin: 0;
+    margin-left: 70px;
+  }
+
+  .menu {
+    margin-right: 70px;
+}
+
+  .menu a {
+    color: #aaa;
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight:300;
+    transition: color 0.3s;
+  }
+
+  .menu a:hover {
+    color: white;
+}
