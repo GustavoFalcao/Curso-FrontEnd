@@ -1,5 +1,5 @@
 html, body {
-    margin: 0;
+    margin: 0 5%;
     padding: 0;
     box-sizing: border-box;
 }
@@ -26,15 +26,38 @@ html, body {
 }
 
   .menu a {
-    color: #aaa;
-    margin-left: 50px;
+    color: #425564;
+    margin-left: 65px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: 2px;
-    font-weight:300;
+    font-weight:400;
     transition: color 0.3s;
   }
 
   .menu a:hover {
     color: white;
 }
+
+   .imagem-topo {
+      width: 100%;
+      display: block;
+    }
+
+    .subtitulo {
+      text-align: center;
+      font-family: "Italiana";
+      font-weight: lighter;
+      font-size: 40px;
+      letter-spacing: 1px;
+      margin-top: 85px;
+    }
+
+    main p{
+      text-align: center;
+      margin: 0 14%;
+      font-family:"Roboto";
+      font-size: 18px;
+      color: #555;
+      line-height: 2;
+    }
