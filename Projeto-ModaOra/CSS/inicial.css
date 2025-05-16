@@ -1,63 +1,103 @@
-html, body {
-    margin: 0 5%;
-    padding: 0;
-    box-sizing: border-box;
+html,
+body {
+  margin: 0 5%;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .cabeçalho {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 40px;
-    background-color:#162028;
-    color: white;
-    font-family:"Roboto";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #162028;
+  color: white;
+  font-family: "Roboto";
 }
 
 .logo {
-    font-family: "Italiana";
-    font-size: 50px;
-    margin: 0;
-    margin-left: 70px;
-  }
-
-  .menu {
-    margin-right: 70px;
+  font-family: "Italiana";
+  font-size: 50px;
+  margin: 0;
+  margin-left: 70px;
 }
 
-  .menu a {
-    color: #425564;
-    margin-left: 65px;
-    text-decoration: none;
-    font-size: 18px;
-    letter-spacing: 2px;
-    font-weight:400;
-    transition: color 0.3s;
-  }
-
-  .menu a:hover {
-    color: white;
+.menu {
+  margin-right: 70px;
 }
 
-   .imagem-topo {
-      width: 100%;
-      display: block;
-    }
+.menu a {
+  color: #425564;
+  margin-left: 65px;
+  text-decoration: none;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  transition: color 0.3s;
+}
 
-    .subtitulo {
-      text-align: center;
-      font-family: "Italiana";
-      font-weight: lighter;
-      font-size: 40px;
-      letter-spacing: 1px;
-      margin-top: 85px;
-    }
+.menu a:hover {
+  color: white;
+}
 
-    main p{
-      text-align: center;
-      margin: 0 14%;
-      font-family:"Roboto";
-      font-size: 18px;
-      color: #555;
-      line-height: 2;
-    }
+.imagem-topo {
+  width: 100%;
+  display: block;
+}
+
+.subtitulo {
+  text-align: center;
+  font-family: "Italiana";
+  font-weight: lighter;
+  font-size: 40px;
+  letter-spacing: 1px;
+  margin-top: 85px;
+}
+
+main p {
+  text-align: center;
+  margin: 0 14%;
+  font-family: "Roboto";
+  font-size: 18px;
+  color: #555;
+  line-height: 2;
+}
+
+.secao-produtos {
+  padding: 60px 0px;
+  text-align: center;
+}
+
+.produtos {
+  display: flex;
+  justify-content: center;
+  gap: 65px;
+  flex-wrap: wrap;
+}
+
+.produto h4 {
+  margin-top: 18px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #555;
+}
+
+.produto p {
+  font-size: 16px;
+  color: #555;
+  margin-top: -5px;
+  font-family: "Roboto";
+  font-weight: 450;
+}
+
+.informativo {
+  margin-top: 25px;
+  padding: 250px 100px 250px 100px;
+  background-image:url(../imagens/bg_detalhe.png);
+  color: white;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size:cover;
+  max-width: 3050px;  
+}
+
