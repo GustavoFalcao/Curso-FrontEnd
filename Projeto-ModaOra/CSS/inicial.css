@@ -91,13 +91,42 @@ main p {
 }
 
 .informativo {
-  margin-top: 25px;
-  padding: 250px 100px 250px 100px;
-  background-image:url(../imagens/bg_detalhe.png);
+  margin-top: 90px;
+  height: 450px;
+  padding: 120px 180px;
+  background-image: url(../imagens/bg_detalhe.png);
   color: white;
-  background-position: bottom right;
+  background-position: top;
   background-repeat: no-repeat;
-  background-size:cover;
-  max-width: 3050px;  
+  background-size: cover;
+  max-width: 3050px;
 }
 
+.informativo h2 {
+  font-size: 50px;
+  font-weight: 100;
+  line-height: 1.3;
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+}
+
+.informativo p {
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: 1.7;
+  max-width: 650px;
+}
+
+.rodape {
+  background-color: #0b171f;
+  padding: 25px 0;
+  text-align: center;
+}
+
+.rodape h5 {
+  color: #6f8597; 
+  font-size: 14px;
+  letter-spacing: 3px;
+  margin: 0;
+  font-family: "Roboto"; 
+}
