@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   margin: 0 5%;
@@ -106,7 +110,7 @@ main p {
   font-size: 50px;
   font-weight: 100;
   line-height: 1.3;
-  font-family: 'Playfair Display', serif;
+  font-family: serif;
   text-transform: uppercase;
 }
 
@@ -124,9 +128,9 @@ main p {
 }
 
 .rodape h5 {
-  color: #6f8597; 
+  color: #6f8597;
   font-size: 14px;
   letter-spacing: 3px;
   margin: 0;
-  font-family: "Roboto"; 
+  font-family: "Roboto";
 }
