@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Details</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        details {
+            color: black;
+            background-color: #ccc;
+            margin-bottom: 1em;
+            padding: .5em;
+        }
+
+        details summary {
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        details[open] {
+            background-color: rgba(0, 255, 255, 0.6);
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Curso Web Design</h1>
+    <details open>
+        <summary>Pré-requisitos</summary>
+        <p>Para fazer esse curso é necessário conhecimento de Sistema operacional.</p>
+    </details>
+
+    <details>
+        <summary>Carga Horária</summary>
+        <p>Curso de 180 horas.</p>
+    </details>
+
+</body>
+
+</html>
