@@ -1,0 +1,90 @@
+html {
+    background-color: #3a68b7;
+    font-family: "Roboto";
+    color: black;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+form {
+    width: 80%;
+    min-width: 28.125em;
+    max-width: 35em;
+    background-color: white;
+    padding: 1.5em;
+    box-shadow: -10px 0em rgba(0, 0, 0, 0.2);
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+    padding: 2rem;
+}
+
+legend {    
+    font-weight: 300;
+    color: #3a68b7;
+    font-size: 2em;
+    margin-bottom: .5em;
+    padding-top: 2rem;
+}
+
+label,
+input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-weight: 300;
+    font-size: .9em;
+    text-transform: uppercase;
+}
+
+input {
+    border: 2px solid transparent;
+    border-bottom-color: #3a68b7;
+    padding: .75em;
+    margin: .2em 0 2.5em;
+    outline: none;
+    transition: padding-left .08s;
+}
+
+input:focus {
+    border: 2px solid #3a68b7;
+    padding-left: .3rem;
+}
+
+.btn {
+    cursor: pointer;
+    padding: .8em 1.2em;
+    font-size: 1em;
+    border: none;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+    outline: none;
+    letter-spacing: 1px;
+}
+
+.btn-primary {
+    background-color: #3a68b7;
+    color: white;
+
+} 
+
+.btn-secondary {
+    color: #3a68b7;
+} 
+
+.forger {
+      float: right;
+      font-size: .9rem;
+      margin-top: 15px;
+}

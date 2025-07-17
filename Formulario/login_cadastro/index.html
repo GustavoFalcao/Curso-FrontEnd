@@ -1,30 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    
+
     <title>Login</title>
 
     <link rel="stylesheet" href="index.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Italiana&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
 </head>
+
 <body>
-    <form>
+    <form action="" method="get" autocomplete="off">
         <fieldset>
             <legend>Login</legend>
 
-            <label for="user">USUÁRIO</label>
+            <label for="user">Usuário</label>
             <input type="text" id="user" name="user" required>
 
-            <label for="password">SENHA</label>
+            <label for="password">Senha</label>
             <input type="text" id="password" name="password" required>
 
-            <button type="submit" class="btn">LOGIN</button>
+            <button type="submit" class="btn btn-primary">Login</button>
 
-            <button onclick="window.location.href='index.html'" class="btn2">CADASTRE-SE</button>
+            <a href="cadastro.html" class="btn btn-secondary">Cadastre-se</a>
 
             <a href="#" class="forger">Esqueci minha senha</a>
+
         </fieldset>
     </form>
 </body>
+
 </html>
