@@ -1,0 +1,4 @@
+.link1::after{
+        content: url(imagens/newWindow-icon.png);
+        padding-left: 4px;
+}
