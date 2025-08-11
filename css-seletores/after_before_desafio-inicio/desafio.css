@@ -1,4 +1,31 @@
-.link1::after{
+/* Pegue todos os links (<a>) que abrem em uma nova aba (porque têm target="_blank) */
+a[target="_blank"]::after {
         content: url(imagens/newWindow-icon.png);
         padding-left: 4px;
+}
+
+/* Pegue todos os links (<a>) filtre apenas os links cujo valor do href termina com .pdf e adicione algo ANTES */
+a[href$=".pdf"]::before {
+        content: url(imagens/pdf-icon.gif);
+        padding-right: 4px;
+}
+
+/*Pegue todo <label> que vem logo depois de um <input> do tipo checkbox que esteja marcado (checked).*/
+input[type="checkbox"]:checked+label {
+        color: green;
+}
+
+/* Pegue todo <label> que vem logo depois de um <input> do tipo checkbox que não esteja desabilitado (:not(:disabled))*/
+input[type="checkbox"]:not(:disabled)+label {
+        color: red;
+}
+
+/*Pegue o <label> que vem imediatamente depois de um <input> do tipo checkbox que está desabilitado.*/
+input[type="checkbox"]:disabled+label {
+        color: blue;
+}
+
+/*Pegue o terceiro <li> dentro de qualquer <li>*/
+li li:nth-child(3) {
+        background-color: yellow;
 }
